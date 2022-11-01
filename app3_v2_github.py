@@ -11,7 +11,6 @@ import pickle
 # load the model.pkl
 # path = r'D:\work\courses\SI-Solution Implementation\SI\code\streamlit\app3\model.pkl'
 # https://docs.streamlit.io/library/api-reference/performance/st.cache
-@st.cache
 with open('model.pkl', "rb") as f:
 	model = pickle.load(f)
 
